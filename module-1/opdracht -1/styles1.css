@@ -1,0 +1,29 @@
+
+  h1 {
+    color:rgb(16, 17, 16);
+    background-color: green;
+    text-align: center;
+  }
+  h2 {
+    color:hsla(233, 96%, 11%, 0.718);
+  }
+  body {
+    background-color:rgb(206, 204, 189);
+  }
+
+div{
+  padding:5px;
+  margin: 5px;
+
+}
+
+
+
+a {
+  color: rgb(1, 1, 1);
+}
+
+a:hover {
+  color:rgb(20, 89, 162);
+}
+
