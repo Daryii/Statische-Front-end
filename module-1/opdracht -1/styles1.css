@@ -27,3 +27,42 @@ a:hover {
   color:rgb(20, 89, 162);
 }
 
+@media only screen and (max-width: 576px) {
+
+  body {
+
+    background-color: rgb(224, 32, 32);
+
+  }
+
+}
+
+@media only screen and (min-width: 576px) {
+
+  body {
+
+    background-color: rgb(128, 168, 128);
+
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  body {
+
+    background-color: rgb(9, 40, 133);
+
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+  body {
+
+    background-color: rgb(197, 135, 20);
+
+  }
+
+}
