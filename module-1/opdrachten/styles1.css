@@ -20,10 +20,13 @@ div{
 
 nav {
   margin-bottom: 60px;
-
+  
   
 }
 
+button{
+  display: block;
+}
 a {
   color: rgb(1, 1, 1);
 }

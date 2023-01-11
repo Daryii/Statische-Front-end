@@ -1,0 +1,37 @@
+h1{
+    color: rgb(34, 68, 154);
+    margin-top: 2px;
+}
+
+h2{
+    color: rgb(241, 16, 16);
+}
+
+.first{
+    color: rgb(0, 0, 0);
+    background-color: rgb(122, 255, 169);
+    padding: 10px;
+    font-weight: bolder;
+    font-size: large;
+    
+   
+
+
+}
+
+.second {
+    color: black;
+    background-color: rgb(185, 187, 104);
+    padding: 10px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.v{
+    margin: 40px;
+    padding: 10px;
+}
+
+.ch2{
+    color: rgb(33, 143, 31);
+}
