@@ -8,7 +8,7 @@ h2{
 }
 
 .first{
-    color: rgb(0, 0, 0);
+    color: rgb(33, 167, 161);
     background-color: rgb(122, 255, 169);
     padding: 10px;
     font-weight: bolder;
@@ -20,7 +20,7 @@ h2{
 }
 
 .second {
-    color: black;
+    color: rgb(63, 28, 190);
     background-color: rgb(185, 187, 104);
     padding: 10px;
     margin-top: 20px;
@@ -34,4 +34,12 @@ h2{
 
 .ch2{
     color: rgb(33, 143, 31);
+}
+
+.n1{
+    background-color: blanchedalmond;
+}
+
+.n2{
+    background-color: rgb(31, 190, 71);
 }
