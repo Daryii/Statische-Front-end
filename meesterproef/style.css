@@ -1,0 +1,38 @@
+
+
+
+.con {
+  background-color: rgb(228, 231, 228);
+  height: 50px;
+  margin: 5px 0;
+  
+}
+
+.nav div {
+  height: 6.6px;
+  background-color: rgb(135, 139, 138);
+  margin: 5px 0;
+  
+  
+
+
+}
+
+.nav {
+  width: 1px;
+  display: block;
+  margin: 1em 0 0 1em;
+  border-top: 20px;
+}
+
+.one {
+  width: 30px;
+}
+
+.two {
+  width: 25px;
+}
+
+.three {
+  width: 20px;
+}
