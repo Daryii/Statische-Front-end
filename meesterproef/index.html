@@ -1,28 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Pagina_1</title>
+    <title>My protfolio</title>
   </head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" alt="logo">
+        <ul>
+          <li> <a href="#">Home</a></li>
+          <li> <a href="#">About</a></li>
+          <li> <a href="#">Services</a></li>
+          <li> <a href="#">Protfolio</a></li>
+          <li> <a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>UI/Ux Designer</p>
+        <h1>Hi, ik ben <span> Daryi </span><br>Woldeghiorghis van Davinci</h1>
+      </div>
+    </div>
+  </div>
+<!-- ---------about----------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque porro, iste tenetur, corporis quia sunt quasi earum error quod consectetur commodi, beatae odit illo obcaecati accusamus officiis similique inventore eius.</p>
 
-  <body>
-    <div class="con">
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Vaardigheden')">Vaardigheden</p>
+            <p class="tab-links" onclick="opentab('Ervaring')">Ervaring</p>
+            <p class="tab-links" onclick="opentab('Opleding')">Opleding</p>
+          </div>
+          <div class="tab-content active-tabs" id="Ervaring">
+            <ul>
+              <li><span>Vaardigheden-1</span><br>Stressbestendigheid</li>
+              <li><span>Vaardigheden-2</span><br>Communicatie</li>
+              <li><span>Vaardigheden-3</span><br>Samenwerken</li>
 
-      <a href="#" class="nav">
-        <div class="one"></div>
-        <div class="two"></div>
-        <div class="three"></div>
-      </a>
+            </ul>
+          </div>
 
+          <div class="tab-content" id="Ervaring">
+            <ul>
+              <li><span>Programmer-taal-1</span><br>Python</li>
+              <li><span>Programmer-taal-2</span><br>Java Script</li>
+              <li><span>Design-Programmer-talen</span><br>HTML en CSS</li>
+            </ul>
+          </div>
 
+          <div class="tab-content" id="Opleding">
+            <ul>
+              <li><span>Mbo-Opleding</span><br>Davinci College</li>
+            </ul>
+          </div>
 
+          
+        </div> 
+          
+
+      </div>
 
     </div>
-
-    
-  </body>
+  </div>
+  
+</body>
 </html>
