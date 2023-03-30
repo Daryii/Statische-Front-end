@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>JavaScript</title>
- 
-<script>
+    <title>Auto's</title>
+    <style>
+        .ferrari {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <script>
 let cars = [
 "Audi A3",
 "BMW 3 Series",
@@ -68,14 +74,19 @@ let cars = [
 console.log(cars[20]);
 
 cars.sort();
-let ul = document.createElement("ul");
+
+let ul = document.createElement('ul');
 document.body.appendChild(ul);
 
-for (cars in cars);
+for (let car of cars) {
+    let li = document.createElement('li');
+    li.textContent = car;
+    if (car.includes('Ferrari')) {
+        li.classList.add('ferrari');
+    }
+    ul.appendChild(li);
+}
 
-
-
- 
 </script>
 
 
