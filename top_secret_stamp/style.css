@@ -1,0 +1,14 @@
+#Button{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    color: white;
+    font: "Top Secret Stamp";
+    cursor: pointer;
+    
+}
+
+#Button:hover{
+    background-color: red;
+    text-decoration: underline;
+}
